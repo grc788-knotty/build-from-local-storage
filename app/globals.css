@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Force light mode - override system dark mode preference */
+html {
+  color-scheme: light;
+}
+
 :root {
   /* Warm, inviting crochet shop palette */
   --background: oklch(0.98 0.005 80);
