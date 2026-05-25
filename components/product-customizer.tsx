@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Check, ImageOff } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -34,13 +34,8 @@ const yarnTypes: Record<string, { name: string; description: string }> = {
   nylon: { name: "Red Heart Scrubby (Nylon)", description: "Textured nylon, perfect for scrubbing" },
 }
 
-interface YarnColor {
-  id: string
-  name: string
-  hex: string
-}
-
-const yarnColors: YarnColor[] = [
+// Fallback colors for non-cotton products
+const defaultYarnColors = [
   { id: "cream", name: "Soft Cream", hex: "#F5F0E6" },
   { id: "blush", name: "Blush Pink", hex: "#F2C4C4" },
   { id: "sage", name: "Sage Green", hex: "#9CAF88" },
@@ -54,6 +49,25 @@ const yarnColors: YarnColor[] = [
   { id: "charcoal", name: "Charcoal", hex: "#6B6B6B" },
   { id: "butter", name: "Butter Yellow", hex: "#F5E6A3" },
 ]
+
+// Type for yarn colors from colors.json (Sugar'n Cream)
+interface SugarNCreamColor {
+  name: string
+  slug: string
+  swatch_url: string
+  swatch_local: string
+  dishcloth_image: string
+  prompt: string
+  source: string
+}
+
+interface YarnColor {
+  id: string
+  name: string
+  hex?: string
+  swatch_local?: string
+  dishcloth_image?: string
+}
 
 type Step = "product" | "color" | "confirm" | "submitted"
 
@@ -71,6 +85,34 @@ export function ProductCustomizer() {
   const [imgErrors, setImgErrors] = useState<Record<string, boolean>>({})
   const [orderForm, setOrderForm] = useState<OrderForm>({ name: "", email: "", phone: "", notes: "" })
   const [dialogOpen, setDialogOpen] = useState(false)
+  const [cottonColors, setCottonColors] = useState<YarnColor[]>([])
+
+  // Load colors.json for cotton yarn colors
+  useEffect(() => {
+    fetch("/colors.json")
+      .then((res) => res.json())
+      .then((data: SugarNCreamColor[]) => {
+        const colors: YarnColor[] = data.map((c) => ({
+          id: c.slug,
+          name: c.name,
+          swatch_local: c.swatch_local,
+          dishcloth_image: c.dishcloth_image,
+        }))
+        setCottonColors(colors)
+      })
+      .catch((err) => {
+        console.error("Failed to load colors.json:", err)
+      })
+  }, [])
+
+  // Get the appropriate colors based on yarn type
+  function getColorsForProduct(product: typeof products[0] | null): YarnColor[] {
+    if (!product) return defaultYarnColors
+    if (product.yarnType === "cotton" && cottonColors.length > 0) {
+      return cottonColors
+    }
+    return defaultYarnColors
+  }
 
   function handleProductSelect(product: typeof products[0]) {
     setSelectedProduct(product)
@@ -99,6 +141,14 @@ export function ProductCustomizer() {
     setStep("product")
   }
 
+  // Get preview image for selected color (dishcloth image if exists, otherwise product image)
+  function getPreviewImage(): string {
+    if (selectedProduct?.id === "dishcloths" && selectedColor?.dishcloth_image) {
+      return selectedColor.dishcloth_image
+    }
+    return selectedProduct?.image || ""
+  }
+
   if (step === "submitted") {
     return (
       <div className="mx-auto max-w-lg text-center py-16">
@@ -120,6 +170,9 @@ export function ProductCustomizer() {
       </div>
     )
   }
+
+  const currentColors = getColorsForProduct(selectedProduct)
+  const isCottonProduct = selectedProduct?.yarnType === "cotton"
 
   return (
     <div className="space-y-8">
@@ -225,21 +278,46 @@ export function ProductCustomizer() {
 
             {/* Right: color grid */}
             <div>
-              <h3 className="font-semibold mb-4">Choose your color</h3>
-              <div className="grid grid-cols-3 gap-2 sm:grid-cols-4">
-                {yarnColors.map((color) => (
+              <h3 className="font-semibold mb-2">Choose your color</h3>
+              {isCottonProduct && cottonColors.length > 0 && (
+                <p className="text-xs text-muted-foreground mb-4">
+                  Showing {cottonColors.length} colors from Lily Sugar&apos;n Cream cotton yarn
+                </p>
+              )}
+              <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 md:grid-cols-6 max-h-[500px] overflow-y-auto pr-2">
+                {currentColors.map((color) => (
                   <button
                     key={color.id}
                     onClick={() => handleColorSelect(color)}
-                    className={`group flex flex-col items-center gap-2 rounded-lg border p-3 transition-all hover:border-primary hover:shadow-sm ${
+                    className={`group flex flex-col items-center gap-1.5 rounded-lg border p-2 transition-all hover:border-primary hover:shadow-sm ${
                       selectedColor?.id === color.id ? "border-primary bg-primary/5" : "border-border"
                     }`}
+                    title={color.name}
                   >
-                    <div
-                      className="h-10 w-10 rounded-full border border-border/50 shadow-sm"
-                      style={{ backgroundColor: color.hex }}
-                    />
-                    <span className="text-center text-xs leading-tight">{color.name}</span>
+                    {color.swatch_local ? (
+                      <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border/50 shadow-sm">
+                        {!imgErrors[`swatch-${color.id}`] ? (
+                          <Image
+                            src={color.swatch_local}
+                            alt={color.name}
+                            fill
+                            className="object-cover"
+                            onError={() => setImgErrors(prev => ({ ...prev, [`swatch-${color.id}`]: true }))}
+                          />
+                        ) : (
+                          <div
+                            className="h-full w-full"
+                            style={{ backgroundColor: color.hex || "#ccc" }}
+                          />
+                        )}
+                      </div>
+                    ) : (
+                      <div
+                        className="h-10 w-10 rounded-full border border-border/50 shadow-sm"
+                        style={{ backgroundColor: color.hex }}
+                      />
+                    )}
+                    <span className="text-center text-[10px] leading-tight line-clamp-2">{color.name}</span>
                   </button>
                 ))}
               </div>
@@ -261,18 +339,59 @@ export function ProductCustomizer() {
             <div className="rounded-xl border bg-card p-6 space-y-4">
               <h2 className="font-serif text-xl font-bold">Your Custom Order</h2>
 
-              {/* Color preview */}
-              <div className="flex items-center gap-4">
-                <div
-                  className="h-16 w-16 flex-shrink-0 rounded-full border border-border/50 shadow"
-                  style={{ backgroundColor: selectedColor.hex }}
-                />
+              {/* Color preview with dishcloth image if available */}
+              <div className="flex items-start gap-4">
+                {selectedColor.swatch_local ? (
+                  <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full border border-border/50 shadow">
+                    {!imgErrors[`confirm-swatch-${selectedColor.id}`] ? (
+                      <Image
+                        src={selectedColor.swatch_local}
+                        alt={selectedColor.name}
+                        fill
+                        className="object-cover"
+                        onError={() => setImgErrors(prev => ({ ...prev, [`confirm-swatch-${selectedColor.id}`]: true }))}
+                      />
+                    ) : (
+                      <div
+                        className="h-full w-full"
+                        style={{ backgroundColor: selectedColor.hex || "#ccc" }}
+                      />
+                    )}
+                  </div>
+                ) : (
+                  <div
+                    className="h-16 w-16 flex-shrink-0 rounded-full border border-border/50 shadow"
+                    style={{ backgroundColor: selectedColor.hex }}
+                  />
+                )}
                 <div>
                   <p className="font-semibold">{selectedProduct.name}</p>
                   <p className="text-sm text-muted-foreground">{selectedColor.name}</p>
                   <p className="text-sm text-muted-foreground">{yarnTypes[selectedProduct.yarnType]?.name}</p>
                 </div>
               </div>
+
+              {/* Show dishcloth preview if available */}
+              {selectedProduct.id === "dishcloths" && selectedColor.dishcloth_image && (
+                <div className="mt-4">
+                  <p className="text-sm font-medium mb-2">Preview</p>
+                  <div className="aspect-square max-w-[200px] overflow-hidden rounded-lg bg-secondary/50 relative">
+                    {!imgErrors[`dishcloth-${selectedColor.id}`] ? (
+                      <Image
+                        src={selectedColor.dishcloth_image}
+                        alt={`${selectedColor.name} dishcloth preview`}
+                        fill
+                        className="object-cover"
+                        onError={() => setImgErrors(prev => ({ ...prev, [`dishcloth-${selectedColor.id}`]: true }))}
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
+                        Preview coming soon
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
 
               <div className="border-t pt-4">
                 <p className="text-sm text-muted-foreground">Estimated starting price</p>

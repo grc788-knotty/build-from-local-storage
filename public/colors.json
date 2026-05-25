@@ -1,0 +1,488 @@
+[
+  {
+    "name": "White",
+    "slug": "white",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100001.jpg?v=1772480484",
+    "swatch_local": "/swatches/white.jpg",
+    "dishcloth_image": "/dishcloths/white.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, bright clean white solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Black",
+    "slug": "black",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100002.jpg?v=1772480484",
+    "swatch_local": "/swatches/black.jpg",
+    "dishcloth_image": "/dishcloths/black.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, deep solid black solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Ecru",
+    "slug": "ecru",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100004.jpg?v=1689879025",
+    "swatch_local": "/swatches/ecru.jpg",
+    "dishcloth_image": "/dishcloths/ecru.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, warm off-white ecru solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Yellow",
+    "slug": "yellow",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100010.jpg?v=1772480484",
+    "swatch_local": "/swatches/yellow.jpg",
+    "dishcloth_image": "/dishcloths/yellow.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, cheerful bright yellow solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Wine",
+    "slug": "wine",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100015.jpg?v=1772480484",
+    "swatch_local": "/swatches/wine.jpg",
+    "dishcloth_image": "/dishcloths/wine.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Wine colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Dark Pine",
+    "slug": "dark-pine",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100016.jpg?v=1689879025",
+    "swatch_local": "/swatches/dark-pine.jpg",
+    "dishcloth_image": "/dishcloths/dark-pine.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Dark Pine colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Light Blue",
+    "slug": "light-blue",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100026.jpg?v=1689879025",
+    "swatch_local": "/swatches/light-blue.jpg",
+    "dishcloth_image": "/dishcloths/light-blue.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, clear sky blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Tea Rose",
+    "slug": "tea-rose",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100042.jpg?v=1772480484",
+    "swatch_local": "/swatches/tea-rose.jpg",
+    "dishcloth_image": "/dishcloths/tea-rose.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, soft dusty rose pink solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Rose Pink",
+    "slug": "rose-pink",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100046.jpg?v=1689879025",
+    "swatch_local": "/swatches/rose-pink.jpg",
+    "dishcloth_image": "/dishcloths/rose-pink.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, soft dusty rose pink solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Sunshine",
+    "slug": "sunshine",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100073.jpg?v=1772480484",
+    "swatch_local": "/swatches/sunshine.jpg",
+    "dishcloth_image": "/dishcloths/sunshine.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Sunshine colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Jute",
+    "slug": "jute",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100082.jpg?v=1772480484",
+    "swatch_local": "/swatches/jute.jpg",
+    "dishcloth_image": "/dishcloths/jute.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Jute colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Sage Green",
+    "slug": "sage-green",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100084.jpg?v=1689879025",
+    "swatch_local": "/swatches/sage-green.jpg",
+    "dishcloth_image": "/dishcloths/sage-green.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, muted sage green solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Red",
+    "slug": "red",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200100095.jpg?v=1772480484",
+    "swatch_local": "/swatches/red.jpg",
+    "dishcloth_image": "/dishcloths/red.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, bold crimson red solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Soft Ecru",
+    "slug": "soft-ecru",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101004.jpg?v=1689879025",
+    "swatch_local": "/swatches/soft-ecru.jpg",
+    "dishcloth_image": "/dishcloths/soft-ecru.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, warm off-white ecru solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Overcast",
+    "slug": "overcast",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101042.jpg?v=1772480484",
+    "swatch_local": "/swatches/overcast.jpg",
+    "dishcloth_image": "/dishcloths/overcast.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Overcast colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Warm Brown",
+    "slug": "warm-brown",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101130.jpg?v=1772480484",
+    "swatch_local": "/swatches/warm-brown.jpg",
+    "dishcloth_image": "/dishcloths/warm-brown.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, earthy warm brown solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Dazzle Blue",
+    "slug": "dazzle-blue",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101131.jpg?v=1689879025",
+    "swatch_local": "/swatches/dazzle-blue.jpg",
+    "dishcloth_image": "/dishcloths/dazzle-blue.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, clear sky blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Beach Glass",
+    "slug": "beach-glass",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101132.jpg?v=1689879025",
+    "swatch_local": "/swatches/beach-glass.jpg",
+    "dishcloth_image": "/dishcloths/beach-glass.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Beach Glass colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Teal",
+    "slug": "teal",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101133.jpg?v=1772480484",
+    "swatch_local": "/swatches/teal.jpg",
+    "dishcloth_image": "/dishcloths/teal.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, rich teal blue-green solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Seabreeze",
+    "slug": "seabreeze",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101201.jpg?v=1689879025",
+    "swatch_local": "/swatches/seabreeze.jpg",
+    "dishcloth_image": "/dishcloths/seabreeze.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Seabreeze colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Robin's Egg",
+    "slug": "robins-egg",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101215.jpg?v=1772480484",
+    "swatch_local": "/swatches/robins-egg.jpg",
+    "dishcloth_image": "/dishcloths/robins-egg.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Robin's Egg colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Hot Purple",
+    "slug": "hot-purple",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101317.jpg?v=1772480484",
+    "swatch_local": "/swatches/hot-purple.jpg",
+    "dishcloth_image": "/dishcloths/hot-purple.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, rich violet purple solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Black Currant",
+    "slug": "black-currant",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101318.jpg?v=1689879025",
+    "swatch_local": "/swatches/black-currant.jpg",
+    "dishcloth_image": "/dishcloths/black-currant.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, deep solid black solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Country Red",
+    "slug": "country-red",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101530.jpg?v=1772480484",
+    "swatch_local": "/swatches/country-red.jpg",
+    "dishcloth_image": "/dishcloths/country-red.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, bold crimson red solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Country Yellow",
+    "slug": "country-yellow",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101612.jpg?v=1689879025",
+    "swatch_local": "/swatches/country-yellow.jpg",
+    "dishcloth_image": "/dishcloths/country-yellow.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, cheerful bright yellow solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Hot Orange",
+    "slug": "hot-orange",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101628.jpg?v=1772480484",
+    "swatch_local": "/swatches/hot-orange.jpg",
+    "dishcloth_image": "/dishcloths/hot-orange.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, vivid orange solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Tangerine",
+    "slug": "tangerine",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101699.jpg?v=1772480484",
+    "swatch_local": "/swatches/tangerine.jpg",
+    "dishcloth_image": "/dishcloths/tangerine.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, vivid tangerine orange solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Hot Green",
+    "slug": "hot-green",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101712.jpg?v=1772480484",
+    "swatch_local": "/swatches/hot-green.jpg",
+    "dishcloth_image": "/dishcloths/hot-green.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, bright leaf green solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Blueberry",
+    "slug": "blueberry",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101725.jpg?v=1772480484",
+    "swatch_local": "/swatches/blueberry.jpg",
+    "dishcloth_image": "/dishcloths/blueberry.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, clear sky blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Hot Pink",
+    "slug": "hot-pink",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101740.jpg?v=1772480484",
+    "swatch_local": "/swatches/hot-pink.jpg",
+    "dishcloth_image": "/dishcloths/hot-pink.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, bright bubblegum pink solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Hot Blue",
+    "slug": "hot-blue",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10200101742.jpg?v=1689879025",
+    "swatch_local": "/swatches/hot-blue.jpg",
+    "dishcloth_image": "/dishcloths/hot-blue.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, clear sky blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-the-original-yarn"
+  },
+  {
+    "name": "Rainforest",
+    "slug": "rainforest",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10201818812-HR.jpg?v=1775066644",
+    "swatch_local": "/swatches/rainforest.jpg",
+    "dishcloth_image": "/dishcloths/rainforest.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, deep forest green solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-super-size-yarn"
+  },
+  {
+    "name": "Cream",
+    "slug": "cream",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10201818003.jpg?v=1775066644",
+    "swatch_local": "/swatches/cream.jpg",
+    "dishcloth_image": "/dishcloths/cream.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, soft warm cream solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-super-size-yarn"
+  },
+  {
+    "name": "Cornflower",
+    "slug": "cornflower",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10201818083.jpg?v=1775066644",
+    "swatch_local": "/swatches/cornflower.jpg",
+    "dishcloth_image": "/dishcloths/cornflower.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Cornflower colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-super-size-yarn"
+  },
+  {
+    "name": "Blue Jeans",
+    "slug": "blue-jeans",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10201818116.jpg?v=1775066644",
+    "swatch_local": "/swatches/blue-jeans.jpg",
+    "dishcloth_image": "/dishcloths/blue-jeans.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, clear sky blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-super-size-yarn"
+  },
+  {
+    "name": "Ahoy Ombre",
+    "slug": "ahoy-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202013.jpg?v=1704989302",
+    "swatch_local": "/swatches/ahoy-ombre.jpg",
+    "dishcloth_image": "/dishcloths/ahoy-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Ahoy Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Chocolate Ombre",
+    "slug": "chocolate-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202014.jpg?v=1737053146",
+    "swatch_local": "/swatches/chocolate-ombre.jpg",
+    "dishcloth_image": "/dishcloths/chocolate-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Chocolate Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Sage",
+    "slug": "sage",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202084.jpg?v=1689391029",
+    "swatch_local": "/swatches/sage.jpg",
+    "dishcloth_image": "/dishcloths/sage.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, muted sage green solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Jade Mist",
+    "slug": "jade-mist",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202742-HR.jpg?v=1689391029",
+    "swatch_local": "/swatches/jade-mist.jpg",
+    "dishcloth_image": "/dishcloths/jade-mist.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Jade Mist colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Emerald Energy Ombre",
+    "slug": "emerald-energy-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202223.jpg?v=1689391029",
+    "swatch_local": "/swatches/emerald-energy-ombre.jpg",
+    "dishcloth_image": "/dishcloths/emerald-energy-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Emerald Energy Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Beach Ball Blue Ombre",
+    "slug": "beach-ball-blue-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202316.jpg?v=1689391029",
+    "swatch_local": "/swatches/beach-ball-blue-ombre.jpg",
+    "dishcloth_image": "/dishcloths/beach-ball-blue-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Beach Ball Blue Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Kitchen Breeze Ombre",
+    "slug": "kitchen-breeze-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202612.jpg?v=1689391029",
+    "swatch_local": "/swatches/kitchen-breeze-ombre.jpg",
+    "dishcloth_image": "/dishcloths/kitchen-breeze-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Kitchen Breeze Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Key Lime Pie Ombre",
+    "slug": "key-lime-pie-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202713.jpg?v=1689391029",
+    "swatch_local": "/swatches/key-lime-pie-ombre.jpg",
+    "dishcloth_image": "/dishcloths/key-lime-pie-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Key Lime Pie Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Woodland Trail Ombre",
+    "slug": "woodland-trail-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202714.jpg?v=1689391029",
+    "swatch_local": "/swatches/woodland-trail-ombre.jpg",
+    "dishcloth_image": "/dishcloths/woodland-trail-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Woodland Trail Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Summerfield Ombre",
+    "slug": "summerfield-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202715.jpg?v=1704989302",
+    "swatch_local": "/swatches/summerfield-ombre.jpg",
+    "dishcloth_image": "/dishcloths/summerfield-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Summerfield Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Coral Rose",
+    "slug": "coral-rose",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202731-HR.jpg?v=1689391029",
+    "swatch_local": "/swatches/coral-rose.jpg",
+    "dishcloth_image": "/dishcloths/coral-rose.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, soft dusty rose pink solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Purple Haze",
+    "slug": "purple-haze",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202733-HR.jpg?v=1689391029",
+    "swatch_local": "/swatches/purple-haze.jpg",
+    "dishcloth_image": "/dishcloths/purple-haze.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, rich violet purple solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Potpourri",
+    "slug": "potpourri",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202178.jpg?v=1689391029",
+    "swatch_local": "/swatches/potpourri.jpg",
+    "dishcloth_image": "/dishcloths/potpourri.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Potpourri colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Orchid",
+    "slug": "orchid",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202743-HR.jpg?v=1689391029",
+    "swatch_local": "/swatches/orchid.jpg",
+    "dishcloth_image": "/dishcloths/orchid.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Orchid colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Bamboo",
+    "slug": "bamboo",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202745.jpg?v=1704989302",
+    "swatch_local": "/swatches/bamboo.jpg",
+    "dishcloth_image": "/dishcloths/bamboo.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Bamboo colorway Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Faded Denim",
+    "slug": "faded-denim",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202181.jpg?v=1689391029",
+    "swatch_local": "/swatches/faded-denim.jpg",
+    "dishcloth_image": "/dishcloths/faded-denim.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, faded denim blue solid color Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Nautical Ombre",
+    "slug": "nautical-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202110.jpg?v=1704989302",
+    "swatch_local": "/swatches/nautical-ombre.jpg",
+    "dishcloth_image": "/dishcloths/nautical-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Nautical Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Autumn Leaves Ombre",
+    "slug": "autumn-leaves-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202430.jpg?v=1704989302",
+    "swatch_local": "/swatches/autumn-leaves-ombre.jpg",
+    "dishcloth_image": "/dishcloths/autumn-leaves-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Autumn Leaves Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  },
+  {
+    "name": "Freshly Pressed Ombre",
+    "slug": "freshly-pressed-ombre",
+    "swatch_url": "https://cdn.shopify.com/s/files/1/0711/5132/1403/products/10300202323.jpg?v=1689391029",
+    "swatch_local": "/swatches/freshly-pressed-ombre.jpg",
+    "dishcloth_image": "/dishcloths/freshly-pressed-ombre.jpg",
+    "prompt": "Crocheted cotton dishcloth, double stitch pattern, 7x7 inches square, flat lay overhead shot on white Carrara marble surface, soft natural window light from upper left, slight drop shadow, Freshly Pressed Ombre colorway, smooth gradient ombre variegated Sugar'n Cream cotton yarn, the cloth fills most of the frame with a small marble border visible, photorealistic product photography, no text, no hands",
+    "source": "lily-sugarn-cream-cone-yarn-400g-14oz"
+  }
+]
